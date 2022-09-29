@@ -4,25 +4,13 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: directory
-  path: public/images
-  label: Public directory
-  create: all
+- type: heading
+  label: Images
+- type: document
+  path: public/images/icon.jpg
+  label: Icon
   match: "**/*"
-- type: heading
-  label: Portrait
-- type: heading
-  label: Couple
-- type: heading
-  label: Baptême
-- type: heading
-  label: Famille
-- type: heading
-  label: Bébé
-- type: heading
-  label: Grossesse
-- type: heading
-  label: Mariage
+  read_only: false
 upload_dir: public
 public_path: "/public"
 front_matter_path: ''
