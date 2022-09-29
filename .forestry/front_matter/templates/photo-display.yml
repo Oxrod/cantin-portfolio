@@ -8,3 +8,4 @@ fields:
     maxSize: 64
   label: Site Icon
   description: Image which will be displayed on the header of your site
+  default: "/public/images/icon.jpg"
