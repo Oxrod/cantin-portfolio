@@ -4,12 +4,12 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: heading
+  label: Portrait
 - type: document
   path: public/images
   label: Icon
   read_only: true
-- type: heading
-  label: Portrait
 - type: heading
   label: Couple
 - type: heading
