@@ -9,8 +9,6 @@ sections:
 - type: document
   path: public/images/icon.jpg
   label: Icon
-  match: "**/*"
-  read_only: false
 upload_dir: public
 public_path: "/public"
 front_matter_path: ''
