@@ -11,10 +11,6 @@ sections:
   match: "**/*"
 - type: heading
   label: Portrait
-- type: document
-  path: public/images
-  label: Icon
-  read_only: true
 - type: heading
   label: Couple
 - type: heading
