@@ -4,29 +4,16 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: heading
+  label: Images
 - type: document
-  path: public/images
+  path: public/images/icon.jpg
   label: Icon
-  read_only: true
-- type: heading
-  label: Portrait
-- type: heading
-  label: Couple
-- type: heading
-  label: Baptême
-- type: heading
-  label: Famille
-- type: heading
-  label: Bébé
-- type: heading
-  label: Grossesse
-- type: heading
-  label: Mariage
 upload_dir: uploads
-public_path: "/uploads"
+public_path: "/public/images"
 front_matter_path: ''
-use_front_matter_path: false
-file_template: ":filename:"
+use_front_matter_path: true
+file_template: ":year:/:month:/:day:/:filename:"
 build:
   install_dependencies_command: npm install
   preview_docker_image: forestryio/node:12
