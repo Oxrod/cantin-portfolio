@@ -4,6 +4,11 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: directory
+  path: public/images/gallery
+  label: Gallery Images
+  create: all
+  match: "**/*"
 - type: heading
   label: Images
 - type: document
