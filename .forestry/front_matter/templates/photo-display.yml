@@ -9,5 +9,3 @@ fields:
   label: Site Icon
   description: Image which will be displayed on the header of your site
   default: "/public/images/icon.jpg"
-pages:
-- public/images/gallery/Example baby photo.md
