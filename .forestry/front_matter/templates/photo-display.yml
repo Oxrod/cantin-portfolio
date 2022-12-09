@@ -7,6 +7,12 @@ fields:
   config:
     maxSize: 64
   label: Image
+- name: category
+  type: text
+  config:
+    required: false
+  label: Catégorie
+  description: Catégorie de l'image, utilisée pour le tri des images
+  hidden: false
 pages:
-- public/images/gallery/Baby photos/Code.md
-- public/images/gallery/Baby photos/Test markdown.md
+- public/images/gallery/Baby photos/baby1.md
