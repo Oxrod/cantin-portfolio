@@ -8,11 +8,20 @@ fields:
     maxSize: 64
   label: Image
 - name: category
-  type: text
+  type: select
+  default: ''
   config:
-    required: false
+    required: true
+    options:
+    - Bébé
+    - Mariage
+    source:
+      type: simple
+      section: ''
+      file: 
+      path: 
   label: Catégorie
-  description: Catégorie de l'image, utilisée pour le tri des images
-  hidden: false
+  description: Catégorie de l'image, doit correspondre à une catégorie énoncée par
+    l'artiste
 pages:
-- public/images/gallery/Baby photos/baby1.md
+- public/images/gallery/Baby photos/baby.md
