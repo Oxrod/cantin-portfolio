@@ -14,5 +14,3 @@ fields:
   label: Catégorie
   description: Catégorie de l'image, utilisée pour le tri des images
   hidden: false
-pages:
-- public/images/gallery/Baby photos/baby1.md
