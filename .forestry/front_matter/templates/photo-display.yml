@@ -12,9 +12,11 @@ fields:
   default: ''
   config:
     required: true
-    options: []
+    options:
+    - Bébé
+    - Mariage
     source:
-      type: documents
+      type: simple
       section: ''
       file: 
       path: 
