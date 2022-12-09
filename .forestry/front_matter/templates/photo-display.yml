@@ -15,5 +15,4 @@ fields:
   description: Catégorie de l'image, utilisée pour le tri des images
   hidden: false
 pages:
-- public/images/gallery/Baby photos/Code.md
 - public/images/gallery/Baby photos/Test markdown.md
