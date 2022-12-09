@@ -8,4 +8,5 @@ fields:
     maxSize: 64
   label: Image
 pages:
+- public/images/gallery/Baby photos/Code.md
 - public/images/gallery/Baby photos/Test markdown.md
