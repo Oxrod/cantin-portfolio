@@ -23,3 +23,5 @@ fields:
   label: Catégorie
   description: Catégorie de l'image, doit correspondre à une catégorie énoncée par
     l'artiste
+pages:
+- public/images/gallery/Baby photos/baby.md
