@@ -2,3 +2,5 @@
 label: Photo Display
 hide_body: false
 fields: []
+pages:
+- public/images/gallery/Baby photos/Test markdown.md
