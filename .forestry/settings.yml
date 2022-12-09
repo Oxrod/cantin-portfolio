@@ -4,6 +4,11 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: directory
+  path: public/images/gallery
+  label: Gallery Images
+  create: all
+  match: "**/*"
 - type: heading
   label: Images
 - type: document
@@ -13,7 +18,7 @@ upload_dir: uploads
 public_path: "/public/images"
 front_matter_path: ''
 use_front_matter_path: true
-file_template: ":year:/:month:/:day:/:filename:"
+file_template: ":filename:"
 build:
   install_dependencies_command: npm install
   preview_docker_image: forestryio/node:12
