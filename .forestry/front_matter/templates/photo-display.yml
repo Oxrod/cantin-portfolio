@@ -1,6 +1,11 @@
 ---
 label: Photo Display
 hide_body: false
-fields: []
+fields:
+- name: image
+  type: file
+  config:
+    maxSize: 64
+  label: Image
 pages:
 - public/images/gallery/Baby photos/Test markdown.md
