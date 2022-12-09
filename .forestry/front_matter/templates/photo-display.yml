@@ -8,9 +8,16 @@ fields:
     maxSize: 64
   label: Image
 - name: category
-  type: text
+  type: select
+  default: ''
   config:
-    required: false
+    required: true
+    options: []
+    source:
+      type: documents
+      section: ''
+      file: 
+      path: 
   label: Catégorie
-  description: Catégorie de l'image, utilisée pour le tri des images
-  hidden: false
+  description: Catégorie de l'image, doit correspondre à une catégorie énoncée par
+    l'artiste
