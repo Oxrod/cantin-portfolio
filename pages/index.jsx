@@ -1,5 +1,4 @@
 import Image from "next/image";
-import icon from "../public/images/icon.jpg";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 
