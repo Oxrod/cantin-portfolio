@@ -1,0 +1,13 @@
+{
+  "_cts": {
+    "image": {}
+  },
+  "slices": {
+    "ImageGallery": {
+      "default": {
+        "primary": {},
+        "items": {}
+      }
+    }
+  }
+}

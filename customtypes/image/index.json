@@ -1,0 +1,48 @@
+{
+  "id": "image",
+  "label": "Image",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "type": "UID",
+        "config": {
+          "label": "image_id",
+          "placeholder": ""
+        }
+      },
+      "image_source": {
+        "type": "Image",
+        "config": {
+          "label": "Image Source",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "category": {
+        "type": "Select",
+        "config": {
+          "label": "Category",
+          "placeholder": "",
+          "options": [
+            "Tout",
+            "Mariage",
+            "Grossesse",
+            "Famille",
+            "Baptême",
+            "Couple",
+            "Bébé"
+          ]
+        }
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {}
+        }
+      }
+    }
+  }
+}

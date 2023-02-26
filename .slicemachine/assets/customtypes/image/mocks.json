@@ -1,0 +1,36 @@
+{
+  "uid": {
+    "__TYPE__": "UIDContent",
+    "value": "ask"
+  },
+  "image_source": {
+    "__TYPE__": "ImageContent",
+    "origin": {
+      "id": "main",
+      "url": "https://images.unsplash.com/photo-1593642633279-1796119d5482",
+      "width": 4016,
+      "height": 6016
+    },
+    "url": "https://images.unsplash.com/photo-1593642633279-1796119d5482",
+    "width": 4016,
+    "height": 6016,
+    "edit": {
+      "zoom": 1,
+      "crop": {
+        "x": 0,
+        "y": 0
+      },
+      "background": "transparent"
+    },
+    "thumbnails": {}
+  },
+  "category": {
+    "__TYPE__": "FieldContent",
+    "value": "Famille",
+    "type": "Select"
+  },
+  "slices": {
+    "__TYPE__": "SliceContentType",
+    "value": []
+  }
+}
