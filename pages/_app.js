@@ -4,9 +4,9 @@ import Navbar from './components/Navbar';
 
 function MyApp({ Component, pageProps }) {
   return (
-    <div className="flex flex-col h-full">
+    <div className="flex flex-col h-full md:h-screen">
       <Navbar />
-      <div className="h-[80vh]">
+      <div className="flex overflow-auto grow w-full h-full">
         <Component {...pageProps} />
       </div>
       <Footer />

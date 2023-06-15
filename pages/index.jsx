@@ -1,6 +1,4 @@
 import Image from "next/image";
-import Footer from "./components/Footer";
-import Navbar from "./components/Navbar";
 
 function importAll(r) {
   return r.keys().map(r);
@@ -15,10 +13,9 @@ const bgImageSrc =
 
 export default function Home() {
   return (
-    <div className="h-full bg-slate-600 relative">
-      {/* {console.log(images[0].toString())} */}
-      <div className="flex text-5xl w-full relative z-50 text-white h-full items-center text-center">
-        <p className="mx-auto text-[#2E4057] bg-[#E0E2DB] font-normal p-6 rounded-md">
+    <div className="flex h-[75vh] md:h-full w-full bg-slate-600 grow relative">
+      <div className="flex w-full relative z-50 text-white h-full items-center text-center">
+        <p className="mx-auto text-3xl md:text-5xl text-[#2E4057] bg-[#E0E2DB] w-5/6 sm:w-max font-normal p-6 rounded-md">
           Charles Cantin
           <br />
           -

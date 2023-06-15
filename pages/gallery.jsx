@@ -29,7 +29,7 @@ const Gallery = ({ documents }) => {
   };
 
   return (
-    <div className="flex flex-col h-full bg-[#E0E2DB]">
+    <div className="flex flex-col h-full w-full bg-[#E0E2DB]">
       <h1 className="p-3 font-medium text-3xl">Toutes mes photos</h1>
       <div className="flex">
         <p className="mx-3">Catégorie : </p>
@@ -45,7 +45,7 @@ const Gallery = ({ documents }) => {
           <option value="Bébé">Bébé</option>
         </select>
       </div>
-      <section className="flex-1 grid grid-flow-row gap-10 mb-0 xl:grid-cols-3 bg-[#F2FFF8] md:grid-cols-2 grid-cols-1 m-3 p-3 overflow-y-auto">
+      <section className="flex-1 grid grid-flow-row gap-10 mb-0 grid-cols-1 md:grid-cols-2 xl:grid-cols-4 bg-[#F2FFF8] m-3 p-3 overflow-y-auto">
         {images.map((imageURL, idx) => {
           return (
             <div key={idx}>

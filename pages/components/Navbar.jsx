@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 
 function importAll(r) {
@@ -12,12 +11,8 @@ const images = importAll(
 export default function Navbar() {
   return (
     <>
-      <nav className="width-100 flex justify-center h-[10vh] bg-[#E0E2DB]">
-        {/* <div className="relative h-full w-24 mx-7">
-          <Image src={images[0]} alt="icon" sizes="100%" layout="fill" />
-        </div> */}
-
-        <div className="w-1/3 flex justify-between items-center">
+      <nav className="w-full flex justify-center py-3 bg-[#E0E2DB]">
+        <div className="w-auto flex flex-col md:flex-row gap-3 md:gap-5 justify-around items-center">
           <Link href="/">
             <a className="font-medium text-[#2E4057] hover:text-[#F18F01]">
               Accueil
