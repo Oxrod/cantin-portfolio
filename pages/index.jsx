@@ -24,7 +24,8 @@ export default function Home() {
             src="/images/logo.jpg"
             sizes="100%"
             fill="true"
-            className="text-3xl md:text-5xl text-[#2E4057] bg-[#E0E2DB] w-5/6 sm:w-max font-normal p-6 rounded-md" />
+            objectFit="cover"
+            className="text-3xl md:text-5xl text-[#2E4057] bg-[#E0E2DB] w-full sm:w-max font-normal rounded-md" />
         </div>
         <Image
           src={bgImageSrc}
