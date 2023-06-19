@@ -17,7 +17,7 @@ export default function Footer() {
         <p className="ml-1 font-light">@charles_cantin_photo</p>
       </div>
       <p className="mx-1">-</p>
-      <Link href="/contact">
+      <Link href="/contact" legacyBehavior>
         <div className="cursor-pointer group flex items-center underline underline-offset-2">
           <div className="flex">
             <Image

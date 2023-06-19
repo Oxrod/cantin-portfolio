@@ -9,27 +9,25 @@ const images = importAll(
 );
 
 export default function Navbar() {
-  return (
-    <>
-      <nav className="w-full flex justify-center py-3 bg-[#E0E2DB]">
-        <div className="w-auto flex flex-col md:flex-row gap-3 md:gap-5 justify-around items-center">
-          <Link href="/">
-            <div className="font-medium text-[#2E4057] hover:text-[#F18F01]">
-              Accueil
-            </div>
-          </Link>
-          <Link href="/gallery">
-            <div className=" font-medium text-[#2E4057] hover:text-[#F18F01]">
-              Galerie
-            </div>
-          </Link>
-          <Link href="/pricing">
-            <div className="font-medium text-[#2E4057] hover:text-[#F18F01]">
-              Tarifs et prestations
-            </div>
-          </Link>
-        </div>
-      </nav>
-    </>
-  );
+  return <>
+    <nav className="w-full flex justify-center py-3 bg-[#E0E2DB]">
+      <div className="w-auto flex flex-col md:flex-row gap-3 md:gap-5 justify-around items-center">
+        <Link href="/" legacyBehavior>
+          <a className="font-medium text-[#2E4057] hover:text-[#F18F01]">
+            Accueil
+          </a>
+        </Link>
+        <Link href="/gallery" legacyBehavior>
+          <a className=" font-medium text-[#2E4057] hover:text-[#F18F01]">
+            Galerie
+          </a>
+        </Link>
+        <Link href="/pricing" legacyBehavior>
+          <a className="font-medium text-[#2E4057] hover:text-[#F18F01]">
+            Tarifs et prestations
+          </a>
+        </Link>
+      </div>
+    </nav>
+  </>;
 }
