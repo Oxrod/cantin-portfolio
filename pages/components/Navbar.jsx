@@ -14,19 +14,19 @@ export default function Navbar() {
       <nav className="w-full flex justify-center py-3 bg-[#E0E2DB]">
         <div className="w-auto flex flex-col md:flex-row gap-3 md:gap-5 justify-around items-center">
           <Link href="/">
-            <a className="font-medium text-[#2E4057] hover:text-[#F18F01]">
+            <div className="font-medium text-[#2E4057] hover:text-[#F18F01]">
               Accueil
-            </a>
+            </div>
           </Link>
           <Link href="/gallery">
-            <a className=" font-medium text-[#2E4057] hover:text-[#F18F01]">
+            <div className=" font-medium text-[#2E4057] hover:text-[#F18F01]">
               Galerie
-            </a>
+            </div>
           </Link>
           <Link href="/pricing">
-            <a className="font-medium text-[#2E4057] hover:text-[#F18F01]">
+            <div className="font-medium text-[#2E4057] hover:text-[#F18F01]">
               Tarifs et prestations
-            </a>
+            </div>
           </Link>
         </div>
       </nav>

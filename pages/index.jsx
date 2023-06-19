@@ -22,9 +22,8 @@ export default function Home() {
           <Image 
             alt=""
             src="/images/logo.jpg"
-            layout="fill"
             sizes="100%"
-            objectFit="cover"
+            fill="true"
             className="text-3xl md:text-5xl text-[#2E4057] bg-[#E0E2DB] w-5/6 sm:w-max font-normal p-6 rounded-md" />
         </div>
         <Image
