@@ -4,9 +4,9 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <footer className="py-2 flex flex-col grow md:flex-row items-center max-h-min md:max-h-32 text-[#2E4057] justify-center bg-[#E0E2DB]">
-      <h1 className="text-center mr-1">© charles-cantin.fr</h1>
+      <p className="text-center">© charles-cantin.fr</p>
       <p className="mx-1">-</p>
-      <div className="flex items-center">
+      <div className="flex ml-1 items-center">
         <Image
           src="https://cdn-icons-png.flaticon.com/512/1384/1384031.png"
           alt="Icône Instagram"
@@ -28,7 +28,7 @@ export default function Footer() {
               layout="fixed"
             />
           </div>
-          <p className="ml-1 group-hover:text-[#F18F01]">Me contacter</p>
+          <a className="ml-1 group-hover:text-[#F18F01]">Me contacter</a>
         </div>
       </Link>
     </footer>

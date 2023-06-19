@@ -1,14 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
 
-function importAll(r) {
-  return r.keys().map(r);
-}
-
-const images = importAll(
-  require.context("../public/images", false, /\.(png|jpe?g|svg)$/)
-);
-
 const bgImageSrc =
   "https://images.unsplash.com/photo-1574446615002-35ec8a8f0da2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80";
 
@@ -18,15 +10,22 @@ export default function Home() {
       <Head>
         <title>Charles Cantin</title>
       </Head>
-      <div className="flex h-[75vh] md:h-full w-full bg-slate-600 grow relative">
-        <div className="flex w-full relative z-50 text-white h-full items-center text-center">
-          <p className="mx-auto text-3xl md:text-5xl text-[#2E4057] bg-[#E0E2DB] w-5/6 sm:w-max font-normal p-6 rounded-md">
+      <div className="flex h-[75vh] md:h-full w-full bg-slate-600 grow relative items-center justify-center">
+        <div className="flex w-5/6 h-2/3 sm:w-96 sm:h-96 relative z-50 text-white items-center text-center">
+          {/* <h1 className="mx-auto text-3xl md:text-5xl text-[#2E4057] bg-[#E0E2DB] w-5/6 sm:w-max font-normal p-6 rounded-md">
             Charles Cantin
             <br />
             -
             <br />
             Photographe
-          </p>
+          </h1> */}
+          <Image 
+            alt=""
+            src="/images/logo.jpg"
+            layout="fill"
+            sizes="100%"
+            objectFit="cover"
+            className="text-3xl md:text-5xl text-[#2E4057] bg-[#E0E2DB] w-5/6 sm:w-max font-normal p-6 rounded-md" />
         </div>
         <Image
           src={bgImageSrc}

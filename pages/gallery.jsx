@@ -1,7 +1,6 @@
 import Image from "next/image";
 import { useEffect, useState } from "react";
-import sm from "../sm.json";
-
+import config from "../slicemachine.config.json";
 import * as prismic from "@prismicio/client";
 import Head from "next/head";
 
@@ -73,7 +72,7 @@ const Gallery = ({ documents }) => {
 export default Gallery;
 
 export const getStaticProps = async () => {
-  const client = prismic.createClient(sm.apiEndpoint);
+  const client = prismic.createClient(config.repositoryName);
   const documents = await client.getAllByType("image");
 
   return {

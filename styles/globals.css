@@ -20,6 +20,14 @@ Image {
   max-height: 100%;
 }
 
+h1, h2, h3 {
+  font-family: 'Kalam', cursive;
+}
+
+a {
+  font-family: 'Signika', sans-serif;
+}
+
 /* Formspree Reset Styles */
 
 #fs-frm input,

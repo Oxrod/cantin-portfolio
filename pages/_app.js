@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }) {
         <meta name="description" content="Charles Cantin, passionné par la photographie, immortalise tous vos évènements avec des offres variées aux tarifs avantageux" />
         <meta name="keywords" content="portfolio, photo, photographie" />
         <meta name="robots" content="index, follow" />
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="language" content="French" />
         <meta name="author" content="Trystan ROLLAND" />
       </Head>
